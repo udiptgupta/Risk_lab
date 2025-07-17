@@ -1,20 +1,22 @@
-# Ignore Python virtual environments
+# Ignore virtual environments
 envs/
+venv/
+*.env
 
-# Ignore Jupyter Notebook checkpoints
-*.ipynb_checkpoints
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
 
-# Ignore Python cache files
-__pycache__/
-*.pyc
-*.pyo
+# Ignore raw and large datasets (optional if you keep small samples)
+01_data_raw/*.csv
+01_data_raw/*.xlsx
+!01_data_raw/sample_*.csv  # keep small samples
 
-# Ignore system files
-.DS_Store
-Thumbs.db
+# Ignore Excel outputs and temp files
+*.xlsx
+*.xls
+~$*.xls
 
-# Ignore log files
+# Ignore logs, cache
 *.log
-
-# Ignore temporary files
-*.tmp
+__pycache__/
+.DS_Store
