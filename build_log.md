@@ -1,0 +1,66 @@
+\# Build Log
+
+
+
+---
+
+
+
+\## Day 1 – July 17, 2025
+
+\*\*Focus:\*\* Infrastructure foundation.
+
+\- ✅ Installed \& verified PostgreSQL; created `risklab` DB.
+
+\- ✅ Created table `stg\_bank\_metrics`; loaded seed data; test query (loan-to-deposit ratio) ran.
+
+\- ✅ Created GitHub repo \*\*Risk\_lab\*\*; built structured folders:
+
+&nbsp; `01\_data\_raw/`, `02\_data\_clean/`, `03\_sql/`, `04\_notebooks/`, `05\_excel/`, `06\_dashboards/`, `07\_docs/`.
+
+\- ✅ Added `README.md`, `build\_log.md`.
+
+\- ✅ Linked local project to GitHub; resolved remote/merge errors.
+
+\- ✅ Added `.gitignore` (ignores `envs/`, checkpoints, temp/big files).
+
+\- ✅ Created \& validated `risklab\_env` (Python 3.11) on D:; Jupyter working.
+
+
+
+\*\*Elapsed:\*\* ~5 hrs (includes Git + env troubleshooting).
+
+
+
+---
+
+
+
+\## Day 2 – July 18, 2025
+
+\*\*Focus:\*\* Stabilize Python/Conda stack.
+
+\- ✅ Repaired broken Conda/Anaconda after interrupted update.
+
+\- ✅ Successfully upgraded Conda to latest (v25.x) in base.
+
+\- ✅ Confirmed Anaconda install clean; base Python 3.13 (general), `risklab\_env` Python 3.11 (project).
+
+\- ✅ Verified Jupyter kernels for both envs appear + launch.
+
+\- ✅ Taskbar launch shortcuts created: Base + RiskLab (opens in correct paths).
+
+\- ✅ Uploaded environment/conda cheat sheet to Notion.
+
+\- ✅ Repo intact after updates (no lost packages).
+
+
+
+\*\*Elapsed:\*\* ~4 hrs (heavy troubleshooting but now stable).
+
+
+
+---
+
+
+

@@ -41,3 +41,6 @@ Most risk data lives behind firewalls. Fresher candidates never see it. I’m pr
 **Udipt Gupta**  
 - FRM L1+L2 Cleared | CFA L1 Aug ’25  
 - [LinkedIn](https://linkedin.com/in/udiptgupta)
+
+## Notes
+- [Notion Page](https://www.notion.so/12-Weeks-Make-or-Break-233ca1bd491a80fda107fffb2a220329?source=copy_link)
