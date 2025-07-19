@@ -61,6 +61,22 @@
 
 
 ---
+## Day 3 – July 19, 2025
+
+**Focus:** Setup Synthetic Bond Risk Lab data pipeline.
+
+- ✅ Setup project structure for Synthetic Bond Risk Lab.
+- ✅ Configured PostgreSQL database `bondrisk_db` and created `bonds` table.
+- ✅ Implemented Python <-> PostgreSQL connection using psycopg2.
+- ✅ Developed `bond_generator.py` to create 1000 synthetic bonds with realistic attributes.
+- ✅ Verified bulk insert of bonds into database (1002 total entries).
+- ✅ Repo now has working data pipeline: Python → PostgreSQL.
+
+**Elapsed:** ~2.5 hrs (project structure + data pipeline).
+
+**Next:** Begin risk analytics (duration, convexity) on synthetic bond portfolio.
+
+---
 
 
 
