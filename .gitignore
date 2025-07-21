@@ -1,22 +1,50 @@
 # Ignore virtual environments
 envs/
 venv/
+.venv/
 *.env
 
-# Ignore Jupyter checkpoints
-.ipynb_checkpoints/
+# Ignore Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Ignore raw and large datasets (optional if you keep small samples)
-01_data_raw/*.csv
-01_data_raw/*.xlsx
-!01_data_raw/sample_*.csv  # keep small samples
+# Ignore Jupyter checkpoints and temp
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.ipynb_checkpoints/*
+
+# Ignore raw and large datasets (keep sample files)
+01_data_raw/*
+01_data_clean/*
+!01_data_raw/sample_*.csv
+!01_data_clean/sample_*.csv
 
 # Ignore Excel outputs and temp files
 *.xlsx
 *.xls
 ~$*.xls
 
-# Ignore logs, cache
+# Ignore logs and other temp files
 *.log
-__pycache__/
+*.tmp
+*.bak
+
+# Ignore system files
 .DS_Store
+Thumbs.db
+
+# Ignore build artifacts
+dist/
+build/
+*.egg-info/
+
+# Ignore VSCode/IDE configs
+.vscode/
+.idea/
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore environment exports
+environment.yml.old
