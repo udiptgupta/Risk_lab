@@ -1,0 +1,22 @@
+# Ignore virtual environments
+envs/
+venv/
+*.env
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore raw and large datasets (optional if you keep small samples)
+01_data_raw/*.csv
+01_data_raw/*.xlsx
+!01_data_raw/sample_*.csv  # keep small samples
+
+# Ignore Excel outputs and temp files
+*.xlsx
+*.xls
+~$*.xls
+
+# Ignore logs, cache
+*.log
+__pycache__/
+.DS_Store
