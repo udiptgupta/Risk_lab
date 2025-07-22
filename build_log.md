@@ -88,3 +88,14 @@
 - Fixed Decimal vs float bugs; validated pricing engine.
 **Next:** Add interactive bond analytics panel and portfolio-level views.
 
+\## Day 5 – July 21, 2025
+
+**Focus:** Finalized environment and Git pipeline for Risk_Lab with future-proof structure.
+
+- ✅ Migrated `07_Risk_Lab` → `D:\09_Risk_Lab` with clean multi-project layout.
+- ✅ Fixed Conda environment migration (`risklab_env`) and re-linked to new folder path.
+- ✅ Resolved Streamlit & pip launcher issues after env copy (dashboard confirmed working).
+- ✅ Cleaned Git repo: initialized in new folder, committed full restructure, pushed to `main`.
+- ✅ Exported `environment.yml` for instant rebuild capability.
+- ✅ Validated Postgres (localhost) unaffected by folder changes.
+- ✅ Deleted old `07_Risk_Lab` safely after ensuring repo and env stability.
