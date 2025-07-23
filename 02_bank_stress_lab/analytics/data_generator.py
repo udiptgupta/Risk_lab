@@ -41,7 +41,7 @@ if __name__ == "__main__":
     banks = fetch_banks()
     all_rows = []
     for bank_id, bank_name in banks:
-        rows = generate_loans_for_bank(bank_id, n_loans = 10)
+        rows = generate_loans_for_bank(bank_id, n_loans = 500)
         all_rows.extend(rows)
     bulk_insert_loans(all_rows)
     print(f"Inserted {len(all_rows)} loans.")

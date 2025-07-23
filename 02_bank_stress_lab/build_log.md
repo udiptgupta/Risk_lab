@@ -210,5 +210,26 @@ Stretch: Update `banks.total_loans` to match portfolio sums (optional — or lea
 
 ---
 
-**End Day 1.**
-Show up tomorrow. Build metrics. Ship.
+# Day 2 – Bank Stress Dashboard Build Log
+
+## Key Progress
+- Implemented `compute_base_metrics()` to calculate:
+  - **LDR (Loan-to-Deposit Ratio)**
+  - **NPL% (Non-Performing Loan Percentage)**
+  - **CAR (Capital Adequacy Ratio)** using risk-weighted loans.
+- Fixed SQL and Python bugs (e.g., tuple unpacking, column mapping).
+- Expanded dataset to **2,500+ loans** via `data_generator.py` for realistic metrics.
+- Executed advanced SQL queries:
+  - Corporate exposure percentage by bank.
+  - Segment-wise loan totals.
+- Verified metrics storage in `bank_metrics` table with updated CAR values.
+
+## Current Metrics Snapshot
+- **RIVERBANK** leads with CAR ~115%.
+- Data now reflects a more realistic LDR and NPL distribution.
+
+## Next Steps (Day 3)
+- Automate daily metric computation.
+- Add trend analysis (time-series metrics).
+- Start planning Tableau dashboard integration.
+
