@@ -233,3 +233,16 @@ Stretch: Update `banks.total_loans` to match portfolio sums (optional — or lea
 - Add trend analysis (time-series metrics).
 - Start planning Tableau dashboard integration.
 
+# Day 3 - Wrap-Up – July 24, 2025
+## Simulated dynamic daily deposits for each bank over 90 days:
+
+- Pulled base_deposits from banks
+
+- Matched with 90 unique loan_dates
+
+- Applied ±0.5% daily drift with a floor at 70% of base
+
+- Inserted into bank_daily_deposits using ON CONFLICT upsert
+
+- Fixed Decimal × Float bug using Decimal(drift)
+
